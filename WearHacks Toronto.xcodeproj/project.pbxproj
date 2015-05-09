@@ -13,9 +13,9 @@
 		D72EE11F1AFDE20F00E31DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EE11E1AFDE20F00E31DC3 /* AppDelegate.swift */; };
 		D72EE1211AFDE20F00E31DC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EE1201AFDE20F00E31DC3 /* ViewController.swift */; };
 		D72EE1241AFDE20F00E31DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72EE1221AFDE20F00E31DC3 /* Main.storyboard */; };
-		D72EE1261AFDE20F00E31DC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72EE1251AFDE20F00E31DC3 /* Images.xcassets */; };
 		D72EE1291AFDE20F00E31DC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72EE1271AFDE20F00E31DC3 /* LaunchScreen.xib */; };
 		D72EE1351AFDE20F00E31DC3 /* WearHacks_TorontoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EE1341AFDE20F00E31DC3 /* WearHacks_TorontoTests.swift */; };
+		D7F4C9B91AFDF1CE00AF03D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F4C9B81AFDF1CE00AF03D2 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +37,11 @@
 		D72EE11E1AFDE20F00E31DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D72EE1201AFDE20F00E31DC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D72EE1231AFDE20F00E31DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D72EE1251AFDE20F00E31DC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D72EE1281AFDE20F00E31DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D72EE12E1AFDE20F00E31DC3 /* WearHacks TorontoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WearHacks TorontoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72EE1331AFDE20F00E31DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D72EE1341AFDE20F00E31DC3 /* WearHacks_TorontoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearHacks_TorontoTests.swift; sourceTree = "<group>"; };
+		D7F4C9B81AFDF1CE00AF03D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +92,8 @@
 				D72EE11E1AFDE20F00E31DC3 /* AppDelegate.swift */,
 				D72EE1201AFDE20F00E31DC3 /* ViewController.swift */,
 				D72EE1221AFDE20F00E31DC3 /* Main.storyboard */,
-				D72EE1251AFDE20F00E31DC3 /* Images.xcassets */,
 				D72EE1271AFDE20F00E31DC3 /* LaunchScreen.xib */,
+				D7F4C9B81AFDF1CE00AF03D2 /* Images.xcassets */,
 				D72EE11C1AFDE20F00E31DC3 /* Supporting Files */,
 			);
 			path = "WearHacks Toronto";
@@ -173,6 +173,12 @@
 				TargetAttributes = {
 					D72EE1181AFDE20F00E31DC3 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2RZZR7HGK6;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					D72EE12D1AFDE20F00E31DC3 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -204,9 +210,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F4C9B91AFDF1CE00AF03D2 /* Images.xcassets in Resources */,
 				D72EE1241AFDE20F00E31DC3 /* Main.storyboard in Resources */,
 				D72EE1291AFDE20F00E31DC3 /* LaunchScreen.xib in Resources */,
-				D72EE1261AFDE20F00E31DC3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
