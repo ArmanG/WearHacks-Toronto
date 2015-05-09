@@ -260,13 +260,6 @@
         <scene sceneID="BG9-5v-Y9T">
             <objects>
                 <viewController title="Home" id="2kS-sh-B53" sceneMemberID="viewController">
-                    <containerView key="view" opaque="NO" contentMode="scaleToFill" id="QZD-Dr-sbk">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <connections>
-                            <segue destination="vXZ-lx-hvc" kind="show" id="Ll1-iZ-NDK"/>
-                        </connections>
-                    </containerView>
                     <tabBarItem key="tabBarItem" title="Item 1" id="nGp-GT-5NS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2uY-B1-SVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
