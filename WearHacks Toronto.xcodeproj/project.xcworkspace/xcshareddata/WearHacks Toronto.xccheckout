@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1B0561BB-C1F4-4798-800C-71EB633C7CF3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BFEBD1B15DC297D0EAD85A7F015159F3A5B30278</key>
+		<string>https://github.com/LeonardBonfils/WearHacks-Toronto.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WearHacks Toronto.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BFEBD1B15DC297D0EAD85A7F015159F3A5B30278</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LeonardBonfils/WearHacks-Toronto.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BFEBD1B15DC297D0EAD85A7F015159F3A5B30278</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BFEBD1B15DC297D0EAD85A7F015159F3A5B30278</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WearHacks-Toronto</string>
+		</dict>
+	</array>
+</dict>
+</plist>
