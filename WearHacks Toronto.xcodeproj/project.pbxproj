@@ -11,12 +11,14 @@
 		A14C9AAB1AFDF47400549138 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14C9AA81AFDF47400549138 /* FBSDKLoginKit.framework */; };
 		A14C9AAC1AFDF47400549138 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14C9AA91AFDF47400549138 /* FBSDKCoreKit.framework */; };
 		D72EE11F1AFDE20F00E31DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EE11E1AFDE20F00E31DC3 /* AppDelegate.swift */; };
-		D72EE1211AFDE20F00E31DC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EE1201AFDE20F00E31DC3 /* ViewController.swift */; };
 		D72EE1241AFDE20F00E31DC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72EE1221AFDE20F00E31DC3 /* Main.storyboard */; };
 		D72EE1291AFDE20F00E31DC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72EE1271AFDE20F00E31DC3 /* LaunchScreen.xib */; };
 		D72EE1351AFDE20F00E31DC3 /* WearHacks_TorontoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72EE1341AFDE20F00E31DC3 /* WearHacks_TorontoTests.swift */; };
 		D7F4C9B91AFDF1CE00AF03D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F4C9B81AFDF1CE00AF03D2 /* Images.xcassets */; };
-		D7F4C9BF1AFE573A00AF03D2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4C9BE1AFE573A00AF03D2 /* SettingsViewController.swift */; };
+		D7F4C9C11AFEA91900AF03D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4C9C01AFEA91900AF03D2 /* HomeViewController.swift */; };
+		D7F4C9C31AFEA92400AF03D2 /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4C9C21AFEA92400AF03D2 /* CaptureViewController.swift */; };
+		D7F4C9C51AFEA93200AF03D2 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4C9C41AFEA93200AF03D2 /* MyProfileViewController.swift */; };
+		D7F4C9C71AFEA95300AF03D2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4C9C61AFEA95300AF03D2 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +38,16 @@
 		D72EE1191AFDE20F00E31DC3 /* WearHacks Toronto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WearHacks Toronto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72EE11D1AFDE20F00E31DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D72EE11E1AFDE20F00E31DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D72EE1201AFDE20F00E31DC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D72EE1231AFDE20F00E31DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D72EE1281AFDE20F00E31DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D72EE12E1AFDE20F00E31DC3 /* WearHacks TorontoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WearHacks TorontoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72EE1331AFDE20F00E31DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D72EE1341AFDE20F00E31DC3 /* WearHacks_TorontoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearHacks_TorontoTests.swift; sourceTree = "<group>"; };
 		D7F4C9B81AFDF1CE00AF03D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D7F4C9BE1AFE573A00AF03D2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D7F4C9C01AFEA91900AF03D2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D7F4C9C21AFEA92400AF03D2 /* CaptureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
+		D7F4C9C41AFEA93200AF03D2 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		D7F4C9C61AFEA95300AF03D2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				D72EE11E1AFDE20F00E31DC3 /* AppDelegate.swift */,
-				D72EE1201AFDE20F00E31DC3 /* ViewController.swift */,
 				D72EE1221AFDE20F00E31DC3 /* Main.storyboard */,
-				D7F4C9BE1AFE573A00AF03D2 /* SettingsViewController.swift */,
+				D7F4C9C01AFEA91900AF03D2 /* HomeViewController.swift */,
+				D7F4C9C21AFEA92400AF03D2 /* CaptureViewController.swift */,
+				D7F4C9C41AFEA93200AF03D2 /* MyProfileViewController.swift */,
+				D7F4C9C61AFEA95300AF03D2 /* SettingsViewController.swift */,
 				D72EE1271AFDE20F00E31DC3 /* LaunchScreen.xib */,
 				D7F4C9B81AFDF1CE00AF03D2 /* Images.xcassets */,
 				D72EE11C1AFDE20F00E31DC3 /* Supporting Files */,
@@ -233,9 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D72EE1211AFDE20F00E31DC3 /* ViewController.swift in Sources */,
+				D7F4C9C51AFEA93200AF03D2 /* MyProfileViewController.swift in Sources */,
+				D7F4C9C31AFEA92400AF03D2 /* CaptureViewController.swift in Sources */,
 				D72EE11F1AFDE20F00E31DC3 /* AppDelegate.swift in Sources */,
-				D7F4C9BF1AFE573A00AF03D2 /* SettingsViewController.swift in Sources */,
+				D7F4C9C11AFEA91900AF03D2 /* HomeViewController.swift in Sources */,
+				D7F4C9C71AFEA95300AF03D2 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
