@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  MyProfileViewController.swift
 //  WearHacks Toronto
 //
 //  Created by Léonard Bonfils on 2015-05-09.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class MyProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

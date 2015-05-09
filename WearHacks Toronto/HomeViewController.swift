@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  HomeViewController.swift
 //  WearHacks Toronto
 //
 //  Created by Léonard Bonfils on 2015-05-09.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
